@@ -20,3 +20,5 @@ opt.cmdheight = 1
 opt.fillchars = { eob = " " }
 
 opt.guicursor = "n-i-c:ver25"
+
+opt.showmode = false
