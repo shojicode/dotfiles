@@ -1,4 +1,7 @@
-require('plugins')
-require('config')
-require('pluginsConf')
-vim.cmd [[PackerInstall]]
+require('config.lazy')
+
+require('config.config')
+
+require('config.mappings')
+
+require("neovide")
